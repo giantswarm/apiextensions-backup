@@ -7,4 +7,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-[Unreleased]: https://github.com/giantswarm/apiextensions-backup/compare/HEAD...HEAD
+[Unreleased]: https://github.com/giantswarm/apiextensions-backup/compare/v0.0.0...HEAD
