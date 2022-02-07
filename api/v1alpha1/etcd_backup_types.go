@@ -11,6 +11,9 @@ import (
 // +kubebuilder:subresource:status
 // +kubebuilder:resource:categories=common;giantswarm,scope=Cluster
 // +k8s:openapi-gen=true
+// +kubebuilder:printcolumn:name="Status",type=string,JSONPath=`.status.status`
+// +kubebuilder:printcolumn:name="Started",type="date",JSONPath=".status.startedTimestamp"
+// +kubebuilder:printcolumn:name="Finished",type="date",JSONPath=".status.finishedTimestamp"
 
 type ETCDBackup struct {
 	metav1.TypeMeta   `json:",inline"`

@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add `additionalPrinterColumns` to the CRD so that more information is shown when fetching it from the k8s API.
+
 ## [0.1.0] - 2022-01-23
 
 [Unreleased]: https://github.com/giantswarm/apiextensions-backup/compare/v0.1.0...HEAD
