@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add `ClustersRegex` property to etcd backup type in order to allow select which clusters etcd backup will run.
+
 ## [0.2.0] - 2022-02-07
 
 ### Added
