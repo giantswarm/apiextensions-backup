@@ -34,6 +34,11 @@ type ETCDBackupSpec struct {
 	// +nullable
 	// ClusterNames is a list of cluster IDs that should be backed up. Can contain the special value 'ManagementCluster' to indicate the Management Cluster.
 	ClusterNames []string `json:"clusterNames,omitempty"`
+
+	// +kubebuilder:validation:Optional
+	// +nullable
+	// ClustersRegex is a regexp string indicating which workload clusters have to be backed up
+	ClustersRegex string `json:"clustersRegex,omitempty"`
 }
 
 // +k8s:openapi-gen=true
