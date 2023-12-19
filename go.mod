@@ -2,7 +2,7 @@ module github.com/giantswarm/apiextensions-backup
 
 go 1.17
 
-require k8s.io/apimachinery v0.20.12
+require k8s.io/apimachinery v0.20.15
 
 require (
 	github.com/go-logr/logr v0.2.0 // indirect
