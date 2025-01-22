@@ -39,6 +39,11 @@ type ETCDBackupSpec struct {
 	// +nullable
 	// ClustersRegex is a regexp string indicating which workload clusters have to be backed up
 	ClustersRegex string `json:"clustersRegex,omitempty"`
+
+	// +kubebuilder:validation:Optional
+	// +nullable
+	// clustersToExcludeRegex is a regexp string indicating which workload clusters will not to be backed up
+	ClustersToExcludeRegex string `json:"clustersToExcludeRegex,omitempty"`
 }
 
 // +k8s:openapi-gen=true
