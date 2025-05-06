@@ -2,7 +2,7 @@ module github.com/giantswarm/apiextensions-backup
 
 go 1.23.0
 
-toolchain go1.23.5
+toolchain go1.24.3
 
 require k8s.io/apimachinery v0.28.4
 
