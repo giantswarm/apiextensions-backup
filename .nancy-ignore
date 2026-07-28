@@ -11,3 +11,4 @@ CVE-2026-42508 until=2026-07-29 # golang.org/x/crypto@v0.47.0
 CVE-2026-46595 until=2026-07-29 # golang.org/x/crypto@v0.47.0
 CVE-2026-46597 until=2026-07-29 # golang.org/x/crypto@v0.47.0
 CVE-2026-39835 until=2026-07-29 # golang.org/x/crypto@v0.47.0
+CVE-2026-56852 until=2026-08-27 # golang.org/x/text@v0.38.0
