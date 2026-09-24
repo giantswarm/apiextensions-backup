@@ -4,7 +4,7 @@ go 1.26.0
 
 toolchain go1.27.1
 
-require k8s.io/apimachinery v0.37.0
+require k8s.io/apimachinery v0.37.1
 
 require (
 	github.com/fxamacker/cbor/v2 v2.9.1 // indirect
